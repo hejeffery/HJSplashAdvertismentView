@@ -64,12 +64,12 @@ static const CGFloat kAnimationDuration = 0.25f;
     
     self.frame = CGRectMake(0.0f, 0.0f, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
 
-    [self setupViews];
+    [self setupSubViews];
     
     [self setupLayouts];
 }
 
-- (void)setupViews {
+- (void)setupSubViews {
     UIImageView *splashImageView = [[UIImageView alloc] init];
     splashImageView.contentMode = UIViewContentModeScaleAspectFill;
     splashImageView.clipsToBounds = YES;
@@ -108,7 +108,7 @@ static const CGFloat kAnimationDuration = 0.25f;
 - (void)showInView:(UIView *)view {
 
     SDImageCache *imageCache = [SDImageCache sharedImageCache];
-    // 通过缓存的key找到了图片显示HJSplashAdvertismentView
+    // 通过缓存的key找到图片，找到了才显示HJSplashAdvertismentView
     UIImage *splashImage = [imageCache imageFromDiskCacheForKey:self.splashAdvertismentModel.imageURL];
     if (splashImage) {
 
