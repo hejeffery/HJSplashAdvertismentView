@@ -1,0 +1,2 @@
+# HJSplashAdvertismentView
+iOS闪屏广告View
