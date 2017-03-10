@@ -24,13 +24,17 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    // 集成HJSplashAdvertisment
+    // 初始化HJSplashAdvertismentModel
     HJSplashAdvertismentModel *splashAdvertismentModel = [[HJSplashAdvertismentModel alloc] init];
-    splashAdvertismentModel.imageURL = @"http://gb.cri.cn/mmsource/images/2005/08/04/pa050804100.jpg";
+    splashAdvertismentModel.imageURL = @"http://gb.cri.cn/mmsource/images/2005/08/04/pa050804100.jpg";// 图片地址
+    
+    // 初始化HJSplashAdvertismentView
     HJSplashAdvertismentView *splashView = [[HJSplashAdvertismentView alloc] init];
-    splashView.timeDuration = 3.0;
-    splashView.splashAdvertismentModel = splashAdvertismentModel;
-    splashView.delegate = self;
-    splashView.direction = LowerRightDirection;
+    splashView.timeDuration = 3;// 设置时间
+    splashView.splashAdvertismentModel = splashAdvertismentModel;// 设置模型数据
+    splashView.delegate = self;// 设置代理
+    splashView.direction = LowerRightDirection;// 设置按钮的方向，支持"右下"，"右上"，"左上"，"左下"
     [splashView showInView:self.window];
     return YES;
 }
