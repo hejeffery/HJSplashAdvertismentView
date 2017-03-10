@@ -25,6 +25,8 @@ static const CGFloat kPadding = 25.0f;
 static const NSUInteger kStepTime = 1;
 // 动画时长
 static const CGFloat kAnimationDuration = 0.25f;
+// 默认时长
+static const NSUInteger kDefaultDuration = 3;
 
 @interface HJSplashAdvertismentView ()
 
@@ -54,7 +56,7 @@ static const CGFloat kAnimationDuration = 0.25f;
 
 - (void)setup {
     
-    self.timeDuration = 3;
+    self.timeDuration = kDefaultDuration;
     
     self.countdownBackgroundColor = [UIColor colorWithRed:(0)/255.0 green:(0)/255.0 blue:(0)/255.0 alpha:(153.0)/255.0];
     
@@ -118,7 +120,12 @@ static const CGFloat kAnimationDuration = 0.25f;
             self.alpha = 1.0f;
 
         } completion:^(BOOL finished) {
+
             // 使用GCD定时
+            if (self.timeDuration <= 0) {
+                self.timeDuration = kDefaultDuration;
+            }
+            
             dispatch_queue_t queue = dispatch_queue_create("com.hejeffery.splashadvertisment", DISPATCH_QUEUE_CONCURRENT);
             self.timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
             dispatch_source_set_timer(self.timer, DISPATCH_TIME_NOW, kStepTime * NSEC_PER_SEC, 0 * NSEC_PER_SEC);
@@ -212,10 +219,6 @@ static const CGFloat kAnimationDuration = 0.25f;
             make.left.equalTo(self.mas_left).offset(kPadding);
         }];
     }
-}
-
-- (void)dealloc {
-    NSLog(@"____HJSplashAdvertismentView被释放____");
 }
 
 @end
