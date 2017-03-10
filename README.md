@@ -4,10 +4,11 @@
 ![Travis](https://img.shields.io/travis/rust-lang/rust.svg)
 ![npm](https://img.shields.io/badge/pod-v1.0.0-blue.svg)
 ![npm](https://img.shields.io/badge/License-MIT-lightgrey.svg)
-A simple advertisment splash view for iOS. iOS启动页的广告展示View
+
+* A simple advertisment splash view for iOS. iOS启动页的广告展示View
 
 ##功能
-6行代码实现iOS启动页的广告展示。支持点击事件。
+* 6行代码实现iOS启动页的广告展示。支持点击事件。
 
 ##预览
 ![](https://github.com/hejeffery/HJSplashAdvertismentView/raw/master/gif/HJSplashAdvertismentView.gif) 
