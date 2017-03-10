@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47263CFF1E7147F9007ADCF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47263CFE1E7147F9007ADCF9 /* main.m */; };
-		47263D021E7147F9007ADCF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47263D011E7147F9007ADCF9 /* AppDelegate.m */; };
-		47263D041E7147F9007ADCF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47263D031E7147F9007ADCF9 /* Assets.xcassets */; };
-		47263D071E7147F9007ADCF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47263D051E7147F9007ADCF9 /* LaunchScreen.storyboard */; };
-		47263D101E71485C007ADCF9 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47263D0F1E71485C007ADCF9 /* TestViewController.m */; };
-		47263D161E714899007ADCF9 /* HJSplashAdvertismentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47263D131E714899007ADCF9 /* HJSplashAdvertismentModel.m */; };
-		47263D171E714899007ADCF9 /* HJSplashAdvertismentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47263D151E714899007ADCF9 /* HJSplashAdvertismentView.m */; };
+		47263D231E72357E007ADCF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47263D1B1E72357E007ADCF9 /* AppDelegate.m */; };
+		47263D241E72357E007ADCF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47263D1C1E72357E007ADCF9 /* Assets.xcassets */; };
+		47263D251E72357E007ADCF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47263D1D1E72357E007ADCF9 /* LaunchScreen.storyboard */; };
+		47263D261E72357E007ADCF9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47263D1F1E72357E007ADCF9 /* Info.plist */; };
+		47263D271E72357E007ADCF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47263D201E72357E007ADCF9 /* main.m */; };
+		47263D281E72357E007ADCF9 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47263D221E72357E007ADCF9 /* TestViewController.m */; };
+		47263D2F1E723588007ADCF9 /* HJSplashAdvertismentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47263D2C1E723588007ADCF9 /* HJSplashAdvertismentModel.m */; };
+		47263D301E723588007ADCF9 /* HJSplashAdvertismentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47263D2E1E723588007ADCF9 /* HJSplashAdvertismentView.m */; };
 		89D6C308F6F075A1EADAB965 /* libPods-HJSplashAdvertismentView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 445E3002089638B308F3A9AC /* libPods-HJSplashAdvertismentView.a */; };
 /* End PBXBuildFile section */
 
@@ -21,18 +22,19 @@
 		0BC9BFB9D687781268E4C15C /* Pods-HJSplashAdvertismentView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJSplashAdvertismentView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HJSplashAdvertismentView/Pods-HJSplashAdvertismentView.release.xcconfig"; sourceTree = "<group>"; };
 		445E3002089638B308F3A9AC /* libPods-HJSplashAdvertismentView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HJSplashAdvertismentView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47263CFA1E7147F9007ADCF9 /* HJSplashAdvertismentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJSplashAdvertismentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		47263CFE1E7147F9007ADCF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		47263D001E7147F9007ADCF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		47263D011E7147F9007ADCF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		47263D031E7147F9007ADCF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		47263D061E7147F9007ADCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		47263D081E7147F9007ADCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47263D0E1E71485C007ADCF9 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		47263D0F1E71485C007ADCF9 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		47263D121E714899007ADCF9 /* HJSplashAdvertismentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSplashAdvertismentModel.h; sourceTree = "<group>"; };
-		47263D131E714899007ADCF9 /* HJSplashAdvertismentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSplashAdvertismentModel.m; sourceTree = "<group>"; };
-		47263D141E714899007ADCF9 /* HJSplashAdvertismentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSplashAdvertismentView.h; sourceTree = "<group>"; };
-		47263D151E714899007ADCF9 /* HJSplashAdvertismentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSplashAdvertismentView.m; sourceTree = "<group>"; };
+		47263D1A1E72357E007ADCF9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47263D1B1E72357E007ADCF9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47263D1C1E72357E007ADCF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47263D1E1E72357E007ADCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47263D1F1E72357E007ADCF9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47263D201E72357E007ADCF9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47263D211E72357E007ADCF9 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		47263D221E72357E007ADCF9 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		47263D2A1E723588007ADCF9 /* HJSplashAdvertisment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSplashAdvertisment.h; sourceTree = "<group>"; };
+		47263D2B1E723588007ADCF9 /* HJSplashAdvertismentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSplashAdvertismentModel.h; sourceTree = "<group>"; };
+		47263D2C1E723588007ADCF9 /* HJSplashAdvertismentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSplashAdvertismentModel.m; sourceTree = "<group>"; };
+		47263D2D1E723588007ADCF9 /* HJSplashAdvertismentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSplashAdvertismentView.h; sourceTree = "<group>"; };
+		47263D2E1E723588007ADCF9 /* HJSplashAdvertismentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSplashAdvertismentView.m; sourceTree = "<group>"; };
 		F9871ED1E93C7AA0D6448274 /* Pods-HJSplashAdvertismentView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJSplashAdvertismentView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJSplashAdvertismentView/Pods-HJSplashAdvertismentView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,7 +53,8 @@
 		47263CF11E7147F9007ADCF9 = {
 			isa = PBXGroup;
 			children = (
-				47263CFC1E7147F9007ADCF9 /* HJSplashAdvertismentView */,
+				47263D191E72357E007ADCF9 /* HJSplashAdvertismentViewDemo */,
+				47263D291E723588007ADCF9 /* HJSplashAdvertismentView */,
 				47263CFB1E7147F9007ADCF9 /* Products */,
 				F88C95C5DB0D04B33407F511 /* Pods */,
 				6C471B894FFD282EC28B9A5A /* Frameworks */,
@@ -66,39 +69,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47263CFC1E7147F9007ADCF9 /* HJSplashAdvertismentView */ = {
+		47263D191E72357E007ADCF9 /* HJSplashAdvertismentViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				47263D001E7147F9007ADCF9 /* AppDelegate.h */,
-				47263D011E7147F9007ADCF9 /* AppDelegate.m */,
-				47263D0E1E71485C007ADCF9 /* TestViewController.h */,
-				47263D0F1E71485C007ADCF9 /* TestViewController.m */,
-				47263D111E714899007ADCF9 /* Source */,
-				47263D031E7147F9007ADCF9 /* Assets.xcassets */,
-				47263D051E7147F9007ADCF9 /* LaunchScreen.storyboard */,
-				47263D081E7147F9007ADCF9 /* Info.plist */,
-				47263CFD1E7147F9007ADCF9 /* Supporting Files */,
+				47263D1A1E72357E007ADCF9 /* AppDelegate.h */,
+				47263D1B1E72357E007ADCF9 /* AppDelegate.m */,
+				47263D1C1E72357E007ADCF9 /* Assets.xcassets */,
+				47263D1D1E72357E007ADCF9 /* LaunchScreen.storyboard */,
+				47263D1F1E72357E007ADCF9 /* Info.plist */,
+				47263D201E72357E007ADCF9 /* main.m */,
+				47263D211E72357E007ADCF9 /* TestViewController.h */,
+				47263D221E72357E007ADCF9 /* TestViewController.m */,
+			);
+			path = HJSplashAdvertismentViewDemo;
+			sourceTree = "<group>";
+		};
+		47263D291E723588007ADCF9 /* HJSplashAdvertismentView */ = {
+			isa = PBXGroup;
+			children = (
+				47263D2A1E723588007ADCF9 /* HJSplashAdvertisment.h */,
+				47263D2B1E723588007ADCF9 /* HJSplashAdvertismentModel.h */,
+				47263D2C1E723588007ADCF9 /* HJSplashAdvertismentModel.m */,
+				47263D2D1E723588007ADCF9 /* HJSplashAdvertismentView.h */,
+				47263D2E1E723588007ADCF9 /* HJSplashAdvertismentView.m */,
 			);
 			path = HJSplashAdvertismentView;
-			sourceTree = "<group>";
-		};
-		47263CFD1E7147F9007ADCF9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				47263CFE1E7147F9007ADCF9 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		47263D111E714899007ADCF9 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				47263D121E714899007ADCF9 /* HJSplashAdvertismentModel.h */,
-				47263D131E714899007ADCF9 /* HJSplashAdvertismentModel.m */,
-				47263D141E714899007ADCF9 /* HJSplashAdvertismentView.h */,
-				47263D151E714899007ADCF9 /* HJSplashAdvertismentView.m */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 		6C471B894FFD282EC28B9A5A /* Frameworks */ = {
@@ -180,8 +175,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47263D041E7147F9007ADCF9 /* Assets.xcassets in Resources */,
-				47263D071E7147F9007ADCF9 /* LaunchScreen.storyboard in Resources */,
+				47263D241E72357E007ADCF9 /* Assets.xcassets in Resources */,
+				47263D251E72357E007ADCF9 /* LaunchScreen.storyboard in Resources */,
+				47263D261E72357E007ADCF9 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,21 +236,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47263D101E71485C007ADCF9 /* TestViewController.m in Sources */,
-				47263D021E7147F9007ADCF9 /* AppDelegate.m in Sources */,
-				47263D171E714899007ADCF9 /* HJSplashAdvertismentView.m in Sources */,
-				47263D161E714899007ADCF9 /* HJSplashAdvertismentModel.m in Sources */,
-				47263CFF1E7147F9007ADCF9 /* main.m in Sources */,
+				47263D281E72357E007ADCF9 /* TestViewController.m in Sources */,
+				47263D271E72357E007ADCF9 /* main.m in Sources */,
+				47263D301E723588007ADCF9 /* HJSplashAdvertismentView.m in Sources */,
+				47263D2F1E723588007ADCF9 /* HJSplashAdvertismentModel.m in Sources */,
+				47263D231E72357E007ADCF9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		47263D051E7147F9007ADCF9 /* LaunchScreen.storyboard */ = {
+		47263D1D1E72357E007ADCF9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				47263D061E7147F9007ADCF9 /* Base */,
+				47263D1E1E72357E007ADCF9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -356,7 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FN82QTBZ23;
-				INFOPLIST_FILE = HJSplashAdvertismentView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HJSplashAdvertismentViewDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jefferyhe.HJSplashAdvertismentView;
@@ -370,7 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FN82QTBZ23;
-				INFOPLIST_FILE = HJSplashAdvertismentView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HJSplashAdvertismentViewDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jefferyhe.HJSplashAdvertismentView;

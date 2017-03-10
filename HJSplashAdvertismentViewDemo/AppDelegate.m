@@ -8,8 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TestViewController.h"
-#import "HJSplashAdvertismentView.h"
-#import "HJSplashAdvertismentModel.h"
+#import "HJSplashAdvertisment.h"
 
 @interface AppDelegate () <HJSplashAdvertismentViewDelegate>
 
