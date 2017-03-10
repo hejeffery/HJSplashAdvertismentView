@@ -23,7 +23,9 @@ OS X 10.7+
 
 ##安装
 * 1.CocoaPods
+
 #### Podfile
+
 ```
 platform :ios, '7.0'
 pod 'HJSplashAdvertismentView'
