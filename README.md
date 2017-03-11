@@ -26,7 +26,7 @@ OS X 10.7+
 
 #### Podfile
 
-```
+```objective-c
 platform :ios, '7.0'
 pod 'HJSplashAdvertismentView'
 ```
@@ -37,13 +37,13 @@ pod 'HJSplashAdvertismentView'
 ##集成
 * 1.导入HJSplashAdvertisment.h
 
-```
+```objective-c
 #import "HJSplashAdvertisment.h"
 ```
 
 * 2.使用
 
-```
+```objective-c
 // 集成HJSplashAdvertisment
 // 初始化HJSplashAdvertismentModel
 HJSplashAdvertismentModel *splashAdvertismentModel = [[HJSplashAdvertismentModel alloc] init];
