@@ -11,7 +11,7 @@
 * 6行代码实现iOS启动页的广告展示。支持点击事件。
 
 ##预览
-![](https://github.com/hejeffery/HJSplashAdvertismentView/raw/master/gif/HJSplashAdvertismentView.gif) 
+<img height="480" src="https://github.com/hejeffery/HJSplashAdvertismentView/raw/master/gif/HJSplashAdvertismentView.gif" />
 
 ##版本要求
 iOS 7 or later
