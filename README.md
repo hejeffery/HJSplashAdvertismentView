@@ -7,25 +7,22 @@
 
 * A simple advertisment splash view for iOS. iOS启动页的广告展示View
 
-##功能
+## 功能
 * 6行代码实现iOS启动页的广告展示。支持点击事件。
 
-
-##预览
-
+## 预览
 
 <img height="480" src="https://github.com/hejeffery/HJSplashAdvertismentView/raw/master/gif/HJSplashAdvertismentView.gif" />
 
-
-##版本要求
+## 版本要求
 iOS 7 or later
 
 
-##编译要求
+## 编译要求
 Xcode6+,
 OS X 10.7+
 
-##安装
+## 安装
 * 1.CocoaPods
 
 #### Podfile
@@ -38,7 +35,7 @@ pod 'HJSplashAdvertismentView'
 * 2.Carthage
   暂不支持
 
-##集成
+## 集成
 * 1.导入HJSplashAdvertisment.h
 
 ```objective-c
@@ -69,7 +66,7 @@ splashView.direction = LowerRightDirection;// 设置按钮的方向，支持"右
 ```
 
 
-#License
+# License
 HJSplashAdvertismentView is available under the MIT license. See the LICENSE file for more info.
 
 
