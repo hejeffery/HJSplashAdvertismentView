@@ -60,6 +60,8 @@ static const NSUInteger kDefaultDuration = 3;
     
     self.countdownBackgroundColor = [UIColor colorWithRed:(0)/255.0 green:(0)/255.0 blue:(0)/255.0 alpha:(153.0)/255.0];
     
+    self.countdownTitleColor = [UIColor whiteColor];
+    
     self.tipString = @"跳过";
     
     self.direction = LowerRightDirection;
@@ -83,6 +85,7 @@ static const NSUInteger kDefaultDuration = 3;
     
     UIButton *countdownButton = [UIButton buttonWithType:UIButtonTypeCustom];
     countdownButton.backgroundColor = self.countdownBackgroundColor;
+    [countdownButton setTitleColor:self.countdownTitleColor forState:UIControlStateNormal];
     countdownButton.titleLabel.font = [UIFont systemFontOfSize:13.5f];
     countdownButton.titleLabel.textAlignment = NSTextAlignmentLeft;
     [countdownButton addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchDown];
@@ -219,6 +222,16 @@ static const NSUInteger kDefaultDuration = 3;
             make.left.equalTo(self.mas_left).offset(kPadding);
         }];
     }
+}
+
+- (void)setCountdownBackgroundColor:(UIColor *)countdownBackgroundColor {
+    _countdownBackgroundColor = countdownBackgroundColor;
+    self.countdownButton.backgroundColor = countdownBackgroundColor;
+}
+
+- (void)setCountdownTitleColor:(UIColor *)countdownTitleColor {
+    _countdownTitleColor = countdownTitleColor;
+    [self.countdownButton setTitleColor:countdownTitleColor forState:UIControlStateNormal];
 }
 
 @end

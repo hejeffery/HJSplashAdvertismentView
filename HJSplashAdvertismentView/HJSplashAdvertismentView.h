@@ -39,6 +39,12 @@ typedef NS_ENUM(NSUInteger, SplashButtonDirection) {
 
 /*!
  @property
+ @abstract 倒计时按钮的title颜色，默认是白色
+ */
+@property (nonatomic, strong) UIColor *countdownTitleColor;
+
+/*!
+ @property
  @abstract 提示的字符串，默认是“跳过”
  */
 @property (nonatomic, copy) NSString *tipString;
